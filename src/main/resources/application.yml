@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: address
+  zipkin:
+    enabled: true
+server:
+  port: 8080
+logging:
+  file: address.log
+elasticsearch:
+  host: localhost
+  port: 9200
+
+
+    
